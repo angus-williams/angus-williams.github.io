@@ -1,0 +1,685 @@
+body {
+	background-color: black;
+}
+
+/*title and nav*/
+
+.intro {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	text-align: left;
+	padding-top: 30vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+	transition: 1s;
+	width: 24%;
+}
+
+.intro.active {
+	opacity: 1;
+	transition: 1s;
+}
+
+.title {
+	font-family: utopia italic;
+	font-style: italic;
+	font-size: 5vw;
+	text-align: left;
+	color: white;
+	position: fixed;
+}
+
+.header {
+	width: 100%;
+	padding-left: 2vw;
+	padding-top: 1vh;
+	height: 90px;
+}
+
+.container {
+	display: flex;
+	flex-wrap:wrap;
+	width: 100%;
+	height: auto;
+	padding-left: 30vw;
+	padding-top: 10vh;
+}
+
+/*image treatment and styling*/
+
+.image {
+	opacity: 0.5;
+	width:33.33%;
+	padding:30px;
+}
+
+.image img {
+	max-width:100%;
+	display:block;
+	margin:auto;
+}
+
+.image.span_1_of_1 {
+  	opacity: 0.5;
+	width:100%;
+	padding:30px;
+ 	transition: .5s ease;
+  	/*backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_1_of_1:hover {
+  	opacity: 1;
+}
+
+.image.span_1_of_2 {
+  	opacity: 0.5;
+	width:50%;
+	padding:30px;
+ 	transition: .5s ease;
+  /*	backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_1_of_2:hover {
+  	opacity: 1;
+}
+
+.image.span_1_of_3 {
+  	opacity: 0.5;
+	width:33.3%;
+	padding:30px;
+ 	transition: .5s ease;
+  	/*backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_1_of_3:hover {
+  	opacity: 1;
+}
+
+.image.span_1_of_4 {
+  	opacity: 0.5;
+	width:25%;
+	padding:30px;
+ 	transition: .5s ease;
+  /*	backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_1_of_4:hover {
+  	opacity: 1;
+}
+
+.image.span_3_of_4 {
+  	opacity: 0.5;
+	width:75%;
+	padding:30px;
+ 	transition: .5s ease;
+ /* 	backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_3_of_4:hover {
+  	opacity: 1;
+}
+
+.image.span_1_of_5 {
+  	opacity: 0.5;
+	width:20%;
+	padding:30px;
+ 	transition: .5s ease;
+  /*	backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_1_of_5:hover {
+  	opacity: 1;
+}
+
+.image.span_2_of_3 {
+  	opacity: 0.5;
+	width:66.6%;
+	padding:30px;
+ 	transition: .5s ease;
+  /*	backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_2_of_3:hover {
+  	opacity: 1;
+}
+
+.image.span_2_of_5 {
+  	opacity: 0.5;
+	width:40%;
+	padding:30px;
+ 	transition: .5s ease;
+  /*	backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_2_of_5:hover {
+  	opacity: 1;
+}
+
+.image.span_3_of_5 {
+  	opacity: 0.5;
+	width:60%;
+	padding:30px;
+ 	transition: .5s ease;
+  /*	backface-visibility: hidden;*/
+  	padding: 20px;
+  	text-align: center;
+}
+
+.image.span_3_of_5:hover {
+  	opacity: 1;
+}
+
+/*text divs*/
+
+.text-one {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-one.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-two {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-two.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-two-2 {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-two-2.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-three {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-three.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-four {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-four.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-five {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-five.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-six {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-six.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-seven {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-seven.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-eight {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-eight.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-nine {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-nine.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-ten {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-ten.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-eleven {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-eleven.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twelve {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twelve.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-thirteen {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-thirteen.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-fourteen {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-fourteen.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-fifteen {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-fifteen.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-sixteen {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-sixteen.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-seventeen {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-seventeen.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+
+.text-eighteen {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-eighteen.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-nineteen {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-nineteen.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-nineteen-2 {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-nineteen-2.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twenty {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twenty.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twenty-2 {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twenty-2.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twentyone {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twentyone.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twentytwo {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twentytwo.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twentytwo-2 {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twentytwo-2.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twentytwo-3 {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twentytwo-3.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twentythree {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twentythree.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twentyfour {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twentyfour.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+.text-twentyfive {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding-top: 84vh;
+	padding-left: 2vw;
+	position: fixed;
+	opacity: 0;
+}
+
+.text-twentyfive.active {
+	animation: opacityOn 3s normal forwards;
+}
+
+
+@keyframes opacityOn {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	75% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+/*button elements*/
+
+.nav {
+	width: 20%;
+	padding: 20px;
+	top: 50vh;
+	left: 2vw;
+	position: fixed;
+	opacity: 0;
+	transition: 1s;
+}
+
+.nav.active {
+	opacity: 1;
+	transition: 1s;
+}
+
+.btn {
+	margin: 5px;
+	font-family: helvetica;
+	font-style: italic;
+	font-size: 1vw;
+	color: white;
+	padding: 10px;
+	opacity: .3;
+	transition: 1s;
+}
+
+.btn:hover {
+	opacity: 1;
+	transition: 1s;
+}
+
+.text.hide {
+	display: none;
+}
+
+.image.hide {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
