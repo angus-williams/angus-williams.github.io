@@ -1,0 +1,197 @@
+html {
+	padding-left:20vw; 
+	padding-right:20vw;
+	background-color:black; 
+	height:100%;
+}
+
+body {
+	padding:30px; 
+	background-color:#d7d8cd; 
+	height:100%;
+}
+
+
+/*changing words*/
+
+.word1 {
+	color:darkred;
+	font-size:4.5vw;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+	border: solid black;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.word2 {
+	color:darkred;
+	font-size:4.5vw;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+	border: solid black;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.word3 {
+	color:darkred;
+	font-size:4.5vw;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+	border: solid black;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*main body of content*/
+
+.title {
+	font-size:4.5vw;
+	padding:5px;
+	text-align: center;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+	color:black;
+/*	position: fixed;
+	top:12vh;
+	left:32vw;
+	flex-wrap: wrap;*/
+}
+
+.title2 {
+	font-size:4.5vw;
+	text-align: center;
+	padding:5px;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+	color:black;
+/*	position: fixed;
+	top:57vh;
+	left:32vw;*/
+}
+
+.title3 {
+	font-size:4.5vw;
+	padding:5px;
+	text-align: center;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+	color:black;
+/*	position: fixed;
+	top:67vh;
+	left:32vw;
+	flex-wrap: wrap;*/
+}
+
+
+/*scrolling text*/
+
+.static1 {
+	font-size:90px;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+}
+
+.static2 {
+	font-size:90px;
+	padding:20px;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+}
+
+.static3 {
+	font-size:90px;
+	padding:20px;
+	font-family: verdana;
+	letter-spacing:-5px;
+	font-weight: 700;
+}
+
+
+/*spaces between text*/
+
+.content {
+	padding:40px;
+}
+
+
+/*fixed info for poster*/
+
+.mada {
+	position: fixed;
+	bottom: 30px;
+	left: 22%;
+	padding:5px;
+	font-size:1vw;
+	font-family: helvetica;
+	color: black;
+}
+
+.poster {
+	position: fixed;
+	top: 30px;
+	left: 22%;
+	padding:5px;
+	font-size:1vw;
+	font-family: helvetica;
+	color: black;
+}
+
+.date {
+	position: fixed;
+	bottom: 30px;
+	right: 22%;
+	padding:5px;
+	font-size:1vw;
+	font-family: helvetica;
+	color: black;
+}
+
+/*.border {
+	padding-left:37vw;
+	padding-top: 79vh; 
+	border-style: solid; 
+	border-width: 12px;
+	position: fixed;
+	top:9vh;
+	left:30vw;
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
