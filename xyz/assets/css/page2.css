@@ -43,77 +43,43 @@ body {
 
 .title {
 	font-size:4.5vw;
-	padding:5px;
+	padding-top: 10px;
+	padding-left:20px;
 	text-align: left;
 	font-family: verdana;
 	letter-spacing:-5px;
 	font-weight: 700;
 	color:black;
-	position: fixed;
-	top:12vh;
-	left:32vw;
 	flex-wrap: wrap;
 }
 
 .title2 {
 	font-size:4.5vw;
-	padding:5px;
+	padding-left:20px;
 	text-align: left;
 	font-family: verdana;
 	letter-spacing:-5px;
 	font-weight: 700;
 	color:black;
-	position: fixed;
-	top:57vh;
-	left:32vw;
 	flex-wrap: wrap;
 }
 
 .title3 {
 	font-size:4.5vw;
-	padding:5px;
+	padding-left: 20px;
 	text-align: left;
 	font-family: verdana;
 	letter-spacing:-5px;
 	font-weight: 700;
 	color:black;
-	position: fixed;
-	top:67vh;
-	left:32vw;
 	flex-wrap: wrap;
-}
-
-
-/*scrolling text*/
-
-.static1 {
-	font-size:90px;
-	font-family: verdana;
-	letter-spacing:-5px;
-	font-weight: 700;
-}
-
-.static2 {
-	font-size:90px;
-	padding:20px;
-	font-family: verdana;
-	letter-spacing:-5px;
-	font-weight: 700;
-}
-
-.static3 {
-	font-size:90px;
-	padding:20px;
-	font-family: verdana;
-	letter-spacing:-5px;
-	font-weight: 700;
 }
 
 
 /*spaces between text*/
 
 .content {
-	padding:3%;
+	padding: 5vh;
 }
 
 
@@ -160,14 +126,12 @@ body {
 }
 
 .border {
-	padding-left:37vw;
-	padding-top: 79vh; 
-	border-style: solid; 
-	border-width: 12px;
-	position: fixed;
-	top:9vh;
-	left:30vw;
-
+	left: 9vw;
+	top: 6vh; 
+	border: solid 12px; 
+	width: 37vw;
+	height: 79.5vh;
+	position: relative;
 }
 
 
