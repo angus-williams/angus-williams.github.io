@@ -6,15 +6,25 @@ body {
 
 .intro {
 	font-family: helvetica;
-	font-size: 1vw;
+	font-size: 20px;
 	color: white;
 	text-align: left;
-	padding-top: 30vh;
-	padding-left: 2vw;
+	top: 30vh;
+	left: 2vw;
 	position: fixed;
 	opacity: 0;
 	transition: 1s;
 	width: 24%;
+}
+
+@media screen and (max-width: 1200px) {
+  .intro {
+  	font-size: 20px;
+  	position: relative;
+  	top: 30px;
+  	left: 10vw;
+  	width: 80%;
+  }
 }
 
 .intro.active {
@@ -26,25 +36,47 @@ body {
 	font-family: utopia italic;
 	font-style: italic;
 	font-size: 5vw;
+	width: 100%;
 	text-align: left;
 	color: white;
 	position: fixed;
+	float: left;
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+  	font-size: 16vw;
+  	position: static;
+  }
 }
 
 .header {
-	width: 100%;
+	width: 33%;
 	padding-left: 2vw;
 	padding-top: 1vh;
-	height: 90px;
+	height: 18vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+  	width: 100%;
+  }
 }
 
 .container {
 	display: flex;
 	flex-wrap:wrap;
-	width: 100%;
 	height: auto;
-	padding-left: 30vw;
+/*	padding-left: 30vw;*/
 	padding-top: 10vh;
+	float: right;
+	width: 65%;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+  	width: 100%;
+  }
 }
 
 /*image treatment and styling*/
@@ -189,13 +221,25 @@ body {
 
 /*text divs*/
 
+.info {
+	z-index: 1;
+	position: fixed;
+	top: 94vh;
+	font-size: 15px;
+	padding-left: 2vw;
+	width: 35%;
+}
+
+@media screen and (max-width: 1200px) {
+  .info {
+  	width: 100%;
+  	font-size: 15px;
+  }
+}
+
 .text-one {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -205,11 +249,7 @@ body {
 
 .text-two {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -219,11 +259,7 @@ body {
 
 .text-two-2 {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -233,11 +269,7 @@ body {
 
 .text-three {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -247,11 +279,7 @@ body {
 
 .text-four {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -261,11 +289,7 @@ body {
 
 .text-five {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -275,11 +299,7 @@ body {
 
 .text-six {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -289,11 +309,7 @@ body {
 
 .text-seven {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -303,11 +319,7 @@ body {
 
 .text-eight {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -317,11 +329,7 @@ body {
 
 .text-nine {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -331,11 +339,7 @@ body {
 
 .text-ten {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -345,11 +349,7 @@ body {
 
 .text-eleven {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -359,11 +359,7 @@ body {
 
 .text-twelve {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -373,11 +369,7 @@ body {
 
 .text-thirteen {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -387,11 +379,7 @@ body {
 
 .text-fourteen {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -401,11 +389,7 @@ body {
 
 .text-fifteen {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -415,11 +399,7 @@ body {
 
 .text-sixteen {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -429,11 +409,7 @@ body {
 
 .text-seventeen {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -441,14 +417,9 @@ body {
 	animation: opacityOn 3s normal forwards;
 }
 
-
 .text-eighteen {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -458,11 +429,7 @@ body {
 
 .text-nineteen {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -472,11 +439,7 @@ body {
 
 .text-nineteen-2 {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -486,11 +449,7 @@ body {
 
 .text-twenty {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -500,11 +459,7 @@ body {
 
 .text-twenty-2 {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -514,11 +469,7 @@ body {
 
 .text-twentyone {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -528,11 +479,7 @@ body {
 
 .text-twentytwo {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -542,11 +489,7 @@ body {
 
 .text-twentytwo-2 {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -556,11 +499,7 @@ body {
 
 .text-twentytwo-3 {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -570,11 +509,7 @@ body {
 
 .text-twentythree {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -584,11 +519,7 @@ body {
 
 .text-twentyfour {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -598,11 +529,7 @@ body {
 
 .text-twentyfive {
 	font-family: helvetica;
-	font-size: 1vw;
 	color: white;
-	padding-top: 84vh;
-	padding-left: 2vw;
-	position: fixed;
 	opacity: 0;
 }
 
@@ -645,6 +572,28 @@ body {
 	transition: 1s;
 }
 
+@media screen and (max-width: 1200px) {
+  .nav {
+  	width: 60%;
+	padding: 20px;
+	top: 60px;
+	left: 10vw;
+	position: relative;
+	display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav {
+  	width: 20%;
+	padding: 20px;
+	top: 60px;
+	left: 10vw;
+	position: relative;
+	display: block;
+  }
+}
+
 .nav.active {
 	opacity: 1;
 	transition: 1s;
@@ -654,11 +603,18 @@ body {
 	margin: 5px;
 	font-family: helvetica;
 	font-style: italic;
-	font-size: 1vw;
+	font-size: 20px;
 	color: white;
 	padding: 10px;
 	opacity: .3;
 	transition: 1s;
+}
+
+@media screen and (max-width: 1200px) {
+  .btn {
+  	font-size: 20px;
+  	width: 100%;
+  }
 }
 
 .btn:hover {
