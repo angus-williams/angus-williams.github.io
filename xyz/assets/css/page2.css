@@ -113,7 +113,7 @@ body {
 /*spaces between text*/
 
 .content {
-	padding:40px;
+	padding:3%;
 }
 
 
@@ -121,7 +121,7 @@ body {
 
 .mada {
 	position: fixed;
-	bottom: 30px;
+	bottom: 4vh;
 	left: 22%;
 	padding:5px;
 	font-size:1vw;
@@ -131,7 +131,7 @@ body {
 
 .poster {
 	position: fixed;
-	top: 30px;
+	top: 4vh;
 	left: 22%;
 	padding:5px;
 	font-size:1vw;
@@ -141,7 +141,17 @@ body {
 
 .date {
 	position: fixed;
-	bottom: 30px;
+	bottom: 4vh;
+	right: 22%;
+	padding:5px;
+	font-size:1vw;
+	font-family: helvetica;
+	color: black;
+}
+
+.link {
+	position: fixed;
+	top: 4vh;
 	right: 22%;
 	padding:5px;
 	font-size:1vw;

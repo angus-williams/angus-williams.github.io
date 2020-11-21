@@ -66,10 +66,6 @@ body {
 	letter-spacing:-5px;
 	font-weight: 700;
 	color:black;
-/*	position: fixed;
-	top:12vh;
-	left:32vw;
-	flex-wrap: wrap;*/
 }
 
 .title2 {
@@ -80,9 +76,6 @@ body {
 	letter-spacing:-5px;
 	font-weight: 700;
 	color:black;
-/*	position: fixed;
-	top:57vh;
-	left:32vw;*/
 }
 
 .title3 {
@@ -93,51 +86,19 @@ body {
 	letter-spacing:-5px;
 	font-weight: 700;
 	color:black;
-/*	position: fixed;
-	top:67vh;
-	left:32vw;
-	flex-wrap: wrap;*/
 }
-
-
-/*scrolling text*/
-
-.static1 {
-	font-size:90px;
-	font-family: verdana;
-	letter-spacing:-5px;
-	font-weight: 700;
-}
-
-.static2 {
-	font-size:90px;
-	padding:20px;
-	font-family: verdana;
-	letter-spacing:-5px;
-	font-weight: 700;
-}
-
-.static3 {
-	font-size:90px;
-	padding:20px;
-	font-family: verdana;
-	letter-spacing:-5px;
-	font-weight: 700;
-}
-
 
 /*spaces between text*/
 
 .content {
-	padding:40px;
+	padding:3%;
 }
-
 
 /*fixed info for poster*/
 
 .mada {
 	position: fixed;
-	bottom: 30px;
+	bottom: 4vh;
 	left: 22%;
 	padding:5px;
 	font-size:1vw;
@@ -147,7 +108,7 @@ body {
 
 .poster {
 	position: fixed;
-	top: 30px;
+	top: 4vh;
 	left: 22%;
 	padding:5px;
 	font-size:1vw;
@@ -157,7 +118,7 @@ body {
 
 .date {
 	position: fixed;
-	bottom: 30px;
+	bottom: 4vh;
 	right: 22%;
 	padding:5px;
 	font-size:1vw;
@@ -165,16 +126,15 @@ body {
 	color: black;
 }
 
-/*.border {
-	padding-left:37vw;
-	padding-top: 79vh; 
-	border-style: solid; 
-	border-width: 12px;
+.link {
 	position: fixed;
-	top:9vh;
-	left:30vw;
-
-}*/
+	top: 4vh;
+	right: 22%;
+	padding:5px;
+	font-size:1vw;
+	font-family: helvetica;
+	color: black;
+}
 
 
 
