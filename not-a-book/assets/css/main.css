@@ -61,7 +61,7 @@ img {
 @media screen and (max-width: 1000px) {
   .subtitle {
     font-size: 20px;
-    width: 100%;
+    width: 80%;
     left: 2%;
   }
 }
@@ -81,7 +81,7 @@ img {
 @media screen and (max-width: 1000px) {
   .date {
     font-size: 10px;
-    width: 100%;
+    width: 80%;
     text-align: left;
     left: 2%;
   }
@@ -271,9 +271,9 @@ img {
   height: auto;
   align-items: top;
   position: relative;
-  top: 0px;
-  left: 1%;
+  padding-bottom: 20px;
   padding: 20px;
+  left: 1%;
   width: 98%;
   height: 100%;
   border: 2px solid white;
