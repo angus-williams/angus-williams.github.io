@@ -612,10 +612,9 @@ img {
 }
 
 .border-trim-5 {
-  position: absolute;
-  top: 942px;
-  width: 97.8%;
-  height: 705px;
+  position: relative;
+  top: 1vh;
+  width: 98%;
   left: 1%;
   border: solid 2px black;
 }
@@ -633,13 +632,15 @@ img {
   font-family: helvetica;
   font-size: 19px;
   color: black;
-  padding: 20px; 
+  padding: 10px; 
   text-align: left;
-  display: inline-flex;
-  position: absolute;
-  top: 1250px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0px;
   left: 1%;
   width: 33%;
+  height: 50%;
 }
 
 .body-text-8 {
@@ -680,25 +681,23 @@ img {
 }
 
 .image-container-6 {
-  padding: 20px;
+  left: 1%;
+  display: flex;
+  flex-wrap: wrap;
   height: auto;
   width: 65%;
-  align-items: center;
-  top: 935px;
-  left: 34%;
-  margin: 0;
-  position: absolute;
+  top: 0%;
+  position: relative;
 }
 
 .image-container-7 {
-  padding: 20px;
+  padding: 10px;
   height: auto;
   width: 100%;
   align-items: center;
   top: 175px;
   width: 37.5%;
   left: 10.5%;
-  margin: 0;
   position: absolute;
   font-size: 10px;
   font-family: helvetica;
@@ -710,11 +709,13 @@ img {
   font-family: minion;
   font-style: italic;
   font-size: 3vw;
+  width: 30%;
   color: black;
-  position: absolute;
-  left: 3%;
-  top: 990px;
-  width: 32%;
+  letter-spacing: -2px;
+  text-align: left;
+  position: relative;
+  top: 30px;
+  left: 2%;
 }
 
 .paraheading-11 {
@@ -735,7 +736,7 @@ img {
   height: 920px;
   align-items: center;
   position: absolute;
-  top: 1665px;
+  top: 2665px;
   width: 100%;
   margin: 0;
 }
