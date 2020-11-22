@@ -84,6 +84,7 @@ img {
     width: 80%;
     text-align: left;
     left: 2%;
+    top: -5px;
   }
 }
 
@@ -278,13 +279,6 @@ img {
   height: 100%;
   border: 2px solid white;
 }
-
-@media screen and (max-width: 1000px) {
-  .quote {
-    height: 100%
-  }
-}
-
 
 .quote {
   font-family: helvetica;
@@ -502,9 +496,9 @@ img {
 
 @media screen and (max-width: 1000px) {
   .image-container-3a {
-    width: 96%;
+    width: 97%;
     top: 40px;
-    left: 2%;
+    left: 1.5%;
     position: relative;
   }
 }
@@ -519,9 +513,9 @@ img {
 
 @media screen and (max-width: 1000px) {
   .image-container-3b {
-    width: 96%;
+    width: 97%;
     top: 40px;
-    left: 2%;
+    left: 1.5%;
     position: relative;
     padding-bottom: 30px;
   }
@@ -558,8 +552,7 @@ img {
   position: absolute;
   width: 50%;
   top: 20%;
-  left: 25%;
-  border: red 1px solid;
+  left: 26%;
 }
 
 .title-2:hover {
@@ -581,7 +574,7 @@ img {
 @media screen and (max-width: 1200px) {
   .subtitle-2 {
     font-size: 20px;
-    width: 100%;
+    width: 90%;
     left: 2%;
   }
 }
@@ -617,30 +610,43 @@ img {
   width: 98%;
   left: 1%;
   border: solid 2px black;
+  max-width: 1920px;
+  min-height: 40%;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-text-7a {
+    padding-bottom: 0px;
+  }
 }
 
 .border-trim-6 {
-  position: absolute;
-  top: 165px;
-  width: 38.5%;
-  height: 345px;
-  left: 10%;
-  border: solid 2px white;
+
 }
 
 .body-text-7a {
   font-family: helvetica;
-  font-size: 19px;
+  font-size: 20px;
   color: black;
   padding: 10px; 
   text-align: left;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   position: relative;
-  top: 0px;
+  top: 40px;
   left: 1%;
-  width: 33%;
-  height: 50%;
+  width: 30%;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-text-7a {
+    width: 98%;
+    left: 1%;
+    top: 30px;
+    display: block;
+    position: relative;
+  }
 }
 
 .body-text-8 {
@@ -649,10 +655,21 @@ img {
   color: white;
   padding: 20px;
   left: 10%; 
+  top: 10px;
   text-align: left;
   display: inline-flex;
-  position: relative;
+  position: absolute;
   width: 39%;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-text-8 {
+    width: 98%;
+    left: 2%;
+    top: 20px;
+    display: block;
+    position: relative;
+  }
 }
 
 .body-text-8a {
@@ -664,8 +681,18 @@ img {
   display: inline-flex;
   position: absolute;
   left: 10%;
-  top: 500px;
+  top: 58vh;
   width: 39%;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-text-8a {
+    width: 98%;
+    left: 2%;
+    top: 20px;
+    display: block;
+    position: relative;
+  }
 }
 
 .body-text-8b {
@@ -673,36 +700,67 @@ img {
   font-size: 19px;
   color: white;
   padding: 20px;
-  left: 10%; 
+  top: 10px;
+  left: 50%; 
+  height: 100%;
   text-align: left;
   display: inline-flex;
   position: relative;
   width: 39%;
 }
 
+@media screen and (max-width: 1200px) {
+  .body-text-8b {
+    width: 98%;
+    left: 2%;
+    top: 0px;
+    display: block;
+    position: relative;
+  }
+}
+
 .image-container-6 {
-  left: 1%;
-  display: flex;
+  left: 34%;
+  display: inline-flex;
   flex-wrap: wrap;
-  height: auto;
   width: 65%;
-  top: 0%;
-  position: relative;
+  top: 15px;
+  position: absolute;
+}
+
+@media screen and (max-width: 1200px) {
+  .image-container-6 {
+    width: 98%;
+    left: 1%;
+    top: 30px;
+    display: block;
+    position: relative;
+  }
 }
 
 .image-container-7 {
   padding: 10px;
   height: auto;
   width: 100%;
-  align-items: center;
-  top: 175px;
+  top: 21%;
   width: 37.5%;
   left: 10.5%;
   position: absolute;
   font-size: 10px;
   font-family: helvetica;
   font-style: italic;
-  padding: 5px;
+  padding: 15px;
+  border: solid 2px white;
+}
+
+@media screen and (max-width: 1200px) {
+  .image-container-7 {
+    width: 98%;
+    left: 1%;
+    top: 20px;
+    display: block;
+    position: relative;
+  }
 }
 
 .paraheading-10 {
@@ -711,11 +769,21 @@ img {
   font-size: 3vw;
   width: 30%;
   color: black;
+  display: block;
   letter-spacing: -2px;
   text-align: left;
   position: relative;
-  top: 30px;
+  top: 20px;
   left: 2%;
+}
+
+@media screen and (max-width: 1200px) {
+  .paraheading-10 {
+    width: 90%;
+    left: 5%;
+    font-size: 40px;
+    display: block;
+  }
 }
 
 .paraheading-11 {
@@ -724,21 +792,32 @@ img {
   font-size: 3vw;
   color: white;
   text-align: center;
-  position: absolute;
+  position: relative;
+  display: block;
   left: 15%;
-  top: 740px;
+  top: 10px;
+  padding-top: 40px;
   width: 66%;
+}
+
+@media screen and (max-width: 1200px) {
+  .paraheading-11 {
+    width: 90%;
+    left: 5%;
+    padding-top: 0px;
+    font-size: 40px;
+    display: block;
+  }
 }
 
 .border-3 {
   background-color: black;
   color: white;
-  height: 920px;
   align-items: center;
-  position: absolute;
-  top: 2665px;
+  position: relative;
+  top: 30px;
   width: 100%;
-  margin: 0;
+  padding-bottom: 50px;
 }
 
 
