@@ -50,15 +50,15 @@ img {
   font-family: helvetica;
   font-size: 40px;
   color: black;
-  top: 1%;
   left: 1%;
+  top: -10px;
   text-align: left;
   position: relative;
   display: inline-block;
   width: 48%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .subtitle {
     font-size: 20px;
     width: 80%;
@@ -72,19 +72,20 @@ img {
   font-size: 20px;
   color: black;
   left: 2.5%;
+  top: -10px;
   text-align: right;
   position: relative;
   display: inline-block;
   width: 48%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .date {
     font-size: 10px;
     width: 80%;
     text-align: left;
     left: 2%;
-    top: -5px;
+    top: -10px;
   }
 }
 
@@ -103,9 +104,16 @@ img {
   color: white;
   letter-spacing: 0px;
   text-align: left;
-  position: absolute;
-  top: 95%;
-  left: 1.2%;
+  position: relative;
+  top: -4vh;
+  left: 20px;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .corner-title {
+    font-size: 10px;
+  }
 }
 
 
@@ -205,7 +213,7 @@ img {
   left: 52%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .paraheading-1 {
     width: 80%;
     left: 10%;
@@ -226,7 +234,7 @@ img {
   left: 20%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .paraheading-2 {
     width: 80%;
     left: 10%;
@@ -240,7 +248,7 @@ img {
   height: auto;
   align-items: top;
   position: relative;
-  padding-left: 1vw;
+  padding-left: 10px;
   width: 100%;
 }
 
@@ -293,7 +301,7 @@ img {
   width: 40%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .quote {
     width: 90%;
   }
@@ -311,7 +319,7 @@ img {
   width: 48%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .body-text-1 {
     width: 95%;
     padding-left: 10px;
@@ -331,7 +339,7 @@ img {
   width: 48%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .body-text-1a {
     width: 95%;
     left: 1px;
@@ -353,7 +361,7 @@ img {
   max-height: 77%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .body-text-2 {
     width: 82%;
     top: 50px;
@@ -377,7 +385,7 @@ img {
   max-height: 99%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .body-text-3 {
     width: 82%;
     top: 30px;
@@ -397,7 +405,7 @@ img {
   width: 32%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .body-text-4a {
     width: 96%;
     top: 0px;
@@ -417,7 +425,7 @@ img {
   width: 32%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .body-text-4b {
     width: 96%;
     top: 20px;
@@ -438,7 +446,7 @@ img {
   padding-right: 30px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .body-text-4c {
     width: 96%;
     top: 20px;
@@ -462,7 +470,7 @@ img {
   position: relative;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .image-container-1 {
     width: 82%;
     left: 8%;
@@ -479,7 +487,7 @@ img {
   position: relative;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .image-container-2 {
     width: 82%;
     left: 8%;
@@ -494,7 +502,7 @@ img {
   width: 32%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .image-container-3a {
     width: 97%;
     top: 40px;
@@ -511,7 +519,7 @@ img {
   width: 32%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .image-container-3b {
     width: 97%;
     top: 40px;
@@ -532,7 +540,7 @@ img {
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .border {
   }
 }
@@ -563,12 +571,12 @@ img {
   font-family: helvetica;
   font-size: 40px;
   color: black;
-  top: 1%;
+  top: -10px;
   left: 1%;
   text-align: left;
   position: relative;
   display: inline-block;
-  width: 40%;
+  width: 44%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -584,13 +592,13 @@ img {
   font-style: italic;
   font-size: 20px;
   color: black;
-  top: 5px;
-  left: 10.5%;
+  top: -10px;
+  left: 2%;
   align-items: top;
   text-align: right;
   position: relative;
   display: inline-block;
-  width: 48%;
+  width: 51.5%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -600,7 +608,7 @@ img {
     text-align: left;
     width: 35%;
     left: 2%;
-    top: 0px;
+    top: -10px;
   }
 }
 
@@ -835,14 +843,57 @@ img {
   letter-spacing: -4px;
   text-align: left;
   position: absolute;
-  top: 47%;
-  left: 53%;
-  align-items: top;
-  transform: translate(-50%, -50%);
+  width: 60%;
+  top: 20%;
+  left: 30%;
 }
 
 .title-3:hover {
   text-decoration: underline;
+}
+
+.subtitle-3 {
+  font-family: helvetica;
+  font-size: 40px;
+  color: black;
+  top: -10px;
+  left: 1%;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .subtitle-3 {
+    font-size: 20px;
+    width: 90%;
+    left: 2%;
+  }
+}
+
+.date-3 {
+  font-family: helvetica;
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+  top: -10px;
+  left: 3%;
+  align-items: top;
+  text-align: right;
+  position: relative;
+  display: inline-block;
+  width: 45%;
+}
+
+@media screen and (max-width: 1200px) {
+  .date-3 {
+    font-size: 10px;
+    width: 100%;
+    text-align: left;
+    width: 35%;
+    left: 2%;
+  }
 }
 
 .title-4 {
@@ -860,58 +911,66 @@ img {
   transform: translate(-50%, -50%);
 }
 
-.border-trim-1 {
-  position: absolute;
-  top: 160px;
-  width: 79.5%;
-  height: 469px;
+.text-container-5 {
+  display: flex;
+  flex-wrap:wrap;
+  height: auto;
+  align-items: top;
+  position: relative;
   left: 10%;
+  top: 20px;
+  width: 80%;
+  border: solid white 2px;
+}
+
+.border-trim-1 {
+  position: relative;
+  top: 20px;
+  width: 79.5%;
+  height: auto;
+  left: 10%;
+  padding-bottom: 20px;
   border: solid 2px white;
 }
 
 .border-trim-2 {
-  position: absolute;
-  top: 1570px;
+  position: relative;
+  top: 20px;
   width: 79.5%;
-  height: 500px;
+  height: auto;
   left: 10%;
   border: solid 2px black;
+  margin-bottom: 20px;
 }
 
 .corner-title-2 {
   font-family: helvetica;
   font-style: italic;
   font-size: 1vw;
-  color: white;
+  color: black;
   letter-spacing: 0px;
   text-align: left;
-  position: absolute;
-  top: 94%;
-  left: 1%;
-  align-items: top;
+  position: relative;
+  top: -0.5vh;
+  left: 20px;
+  max-width: 50%;
 }
 
-.quote-2 {
-  font-family: helvetica;
-  padding-top: 20px;
-  font-size: 19px;
-  color: white;
-  position: relative;
-  font-style: italic;
-  display: block;
-  padding-left: 11%; 
-  width: 45%;
+@media screen and (max-width: 1000px) {
+  .corner-title-2 {
+    font-size: 10px;
+    top: 0vh;
+  }
 }
 
 .border-2 {
   background-color: black;
   color: white;
-  height: 655px;
   align-items: center;
-  position: absolute;
-  top: 940px;
+  position: relative;
+  top: 5px;
+  padding-bottom: 50px;
   width: 100%;
-  margin: 0;
 }
 
 .paraheading-3 {
@@ -919,6 +978,7 @@ img {
   font-style: italic;
   font-size: 3vw;
   color: white;
+  top: 10px;
   letter-spacing: -2px;
   text-align: center;
   position: relative;
@@ -926,57 +986,103 @@ img {
   left: 0%;
 }
 
+@media screen and (max-width: 1200px) {
+  .paraheading-3 {
+    width: 90%;
+    left: 5%;
+    padding-top: 0px;
+    font-size: 40px;
+    display: block;
+  }
+}
+
 .body-text-5 {
   font-family: helvetica;
-  font-size: 19px;
+  font-size: 20px;
   color: white;
   padding: 20px;
-  left: 10%; 
+  left: 5px;
+  padding-bottom: 20px;
   text-align: left;
-  display: inline-flex;
+  display: inline-block;
   position: relative;
-  width: 39%;
+  width: 48%;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-text-5 {
+    width: 98%;
+    position: relative;
+    left: 2%;
+    padding-left: 10px;
+  }
 }
 
 .body-text-5a {
   font-family: helvetica;
-  font-size: 19px;
+  font-size: 20px;
   color: white;
-  padding: 20px; 
+  padding-top: 20px;
+  padding-bottom: 20px; 
   text-align: left;
   display: inline-flex;
-  position: relative;
-  left: 11%;
-  bottom: 115px;
-  width: 39%;
+  position: absolute;
+  left: 50%;
+  width: 48%;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-text-5a {
+    width: 98%;
+    left: 2%;
+    position: relative;
+    padding-left: 10px;
+  }
 }
 
 .body-text-6a {
   font-family: helvetica;
-  font-size: 19px;
+  font-size: 20px;
   color: black;
   padding: 20px; 
   text-align: left;
   display: inline-flex;
   position: relative;
-  left: 10%;
-  top: 840px;
-  width: 39%;
-  padding-bottom: 50px;
+  left: 0%;
+  top: 0px;
+  width: 48%;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-text-6a {
+    width: 98%;
+    position: relative;
+    left: 2%;
+    padding-left: 10px;
+  }
 }
 
 .body-text-6b {
   font-family: helvetica;
-  font-size: 19px;
+  font-size: 20px;
   color: black;
   padding: 20px; 
   text-align: left;
   display: inline-flex;
   position: relative;
-  left: 11%;
-  top: 840px;
-  width: 39%;
-  padding-bottom: 50px;
+  left: 0%;
+  top: 0px;
+  width: 48%;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-text-6b {
+    width: 98%;
+    position: relative;
+    top: -20px;
+    left: 2%;
+    padding-left: 10px;
+  }
 }
 
 .image-container-4 {
@@ -984,14 +1090,10 @@ img {
   font-style: italic;
   font-size: 8vw;
   color: white;
-  width: 100.2%;
   letter-spacing: -4px;
   text-align: left;
-  position: absolute;
-  top: 1110px;
-  left: 49.9%;
-  align-items: top;
-  transform: translate(-50%, -50%);
+  position: relative;
+  width: 100%;
 }
 
 .image-container-5 {
@@ -999,15 +1101,25 @@ img {
   height: auto;
   width: 100%;
   align-items: center;
-  top: 1710px;
-  width: 37.5%;
-  left: 10.5%;
+  top: 23%;
+  width: 48%;
+  left: 49%;
   margin: 0;
   position: absolute;
   font-size: 10px;
   font-family: helvetica;
   font-style: italic;
   padding: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .image-container-5 {
+    width: 98%;
+    left: 1%;
+    top: -10px;
+    display: block;
+    position: relative;
+  }
 }
 
 .reference-2 {
