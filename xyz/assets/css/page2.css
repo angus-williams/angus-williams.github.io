@@ -79,7 +79,7 @@ body {
 /*spaces between text*/
 
 .content {
-	padding: 5vh;
+	padding: 2vh;
 }
 
 
@@ -126,12 +126,12 @@ body {
 }
 
 .border {
-	left: 9vw;
-	top: 6vh; 
+	left: 31.5vw;
+	top: 10vh; 
 	border: solid 12px; 
 	width: 37vw;
-	height: 79.5vh;
-	position: relative;
+	height: 79%;
+	position: absolute;
 }
 
 
