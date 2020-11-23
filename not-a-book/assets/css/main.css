@@ -982,7 +982,7 @@ a:hover {
   height: auto;
   left: 10%;
   border: solid 2px black;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .corner-title-2 {
@@ -1013,6 +1013,15 @@ a:hover {
   top: 5px;
   padding-bottom: 50px;
   width: 100%;
+}
+
+.border-4 {
+  align-items: center;
+  position: relative;
+  top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: auto;
 }
 
 .paraheading-3 {
