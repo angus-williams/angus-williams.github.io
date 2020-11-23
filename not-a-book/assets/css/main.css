@@ -15,6 +15,10 @@ img {
   height: auto;
 }
 
+a {
+  color: black;
+}
+
 .nav {
   width: 100%;
   background-color: white;
@@ -36,6 +40,35 @@ img {
 .btn:hover {
   text-decoration: underline;
   cursor:pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .btn {
+    font-size: 20px;
+  }
+}
+
+
+.middle {
+  padding-left: 90px;
+}
+
+@media screen and (max-width: 1200px) {
+  .middle {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .middle {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .middle {
+    padding-left: 5px;
+  }
 }
 
 .title-container {
