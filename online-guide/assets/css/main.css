@@ -278,11 +278,6 @@ img {
 	margin-bottom: -50px;
 }
 
-@media screen and (max-width: 1000px) {
-  .section-1 {
-    height: 100vh;
-  }
-}
 
 .section-2 {
 	background-color: black;
@@ -293,11 +288,6 @@ img {
 	display: inline-block;
 }
 
-@media screen and (max-width: 1000px) {
-  .section-2 {
-    height: 100vh;
-  }
-}
 
 .text-container-1 {
 	color: white;
@@ -320,7 +310,7 @@ img {
   .text-1 {
     width: 80%;
     left: 10%;
-    font-size: 2vw;
+
   }
 }
 
@@ -336,7 +326,7 @@ img {
   	top: 20px;
     width: 80%;
     left: 10%;
-    font-size: 2vw;
+
   }
 }
 
